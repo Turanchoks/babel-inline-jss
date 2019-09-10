@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/generator": "^7.5.5",
+    "@babel/helper-transform-fixture-test-runner": "^7.6.0",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/register": "^7.6.0",
+    "jest": "^24.9.0",
+    "jss": "^9.8.7",
+    "jss-preset-default": "^4.5.0"
+  },
+  "jest": {
+    "modulePathIgnorePatterns": [
+      "/test/fixtures/"
+    ],
+    "testEnvironment": "node",
+    "testRegex": "./test/.+\\.js$"
+  }
+}
